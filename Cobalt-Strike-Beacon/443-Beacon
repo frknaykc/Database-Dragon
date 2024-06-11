@@ -1,0 +1,143 @@
+Cobalt Strike Beacon
+HTTP/1.1 404 Not Found
+Date: Tue, 11 Jun 2024 11:55:41 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Cobalt Strike Beacon:
+  x86:
+    beacon_type: HTTPS
+    dns-beacon.strategy_fail_seconds: -1
+    dns-beacon.strategy_fail_x: -1
+    dns-beacon.strategy_rotate_seconds: -1
+    http-get.client:
+      Accept: accccccc
+      Host: www.google.com
+      Referer: http://www.google.com/
+      Accept-Encoding: gzip, deflate
+      SESSION=
+      Cookie
+    http-get.uri: 117.50.179.15,/aaaaaaaaa
+    http-get.verb: GET
+    http-post.client:
+      Accept: accccccc
+      Host: www.google.com
+      Referer: http://www.google.com/
+      Accept-Encoding: gzip, deflate
+      SESSION
+    http-post.uri: /bbbbbbbbb
+    http-post.verb: POST
+    maxgetsize: 1398122
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 3168a134f2bc8f773f6274cb54f59efd
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: d73c1c0932a4a69608310d9bda00e40b
+    sleeptime: 60000
+    useragent_header: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1)
+    uses_cookies: 1
+    watermark: 987654321
+  x64:
+    beacon_type: HTTPS
+    dns-beacon.strategy_fail_seconds: -1
+    dns-beacon.strategy_fail_x: -1
+    dns-beacon.strategy_rotate_seconds: -1
+    http-get.client:
+      Accept: accccccc
+      Host: www.google.com
+      Referer: http://www.google.com/
+      Accept-Encoding: gzip, deflate
+      SESSION=
+      Cookie
+    http-get.uri: 117.50.179.15,/aaaaaaaaa
+    http-get.verb: GET
+    http-post.client:
+      Accept: accccccc
+      Host: www.google.com
+      Referer: http://www.google.com/
+      Accept-Encoding: gzip, deflate
+      SESSION
+    http-post.uri: /bbbbbbbbb
+    http-post.verb: POST
+    maxgetsize: 1398122
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 3168a134f2bc8f773f6274cb54f59efd
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: d73c1c0932a4a69608310d9bda00e40b
+    sleeptime: 60000
+    useragent_header: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+    uses_cookies: 1
+    watermark: 987654321
+
+SSL Certificate
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 146473198 (0x8bb00ee)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=, ST=, L=, O=, OU=, CN=
+        Validity
+            Not Before: May 20 18:26:24 2015 GMT
+            Not After : May 17 18:26:24 2025 GMT
+        Subject: C=, ST=, L=, O=, OU=, CN=
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:98:d7:1a:93:71:8e:6f:7b:62:8c:09:53:13:32:
+                    33:f4:01:8c:64:e7:c9:4a:8c:5e:dd:48:b1:70:2b:
+                    55:da:29:dc:5f:df:19:d8:6c:99:69:04:c5:3b:7c:
+                    01:f8:d6:9b:d4:cb:d8:8d:ca:09:52:aa:06:14:3d:
+                    53:cf:96:fa:5d:c9:00:f3:5a:a8:b9:ce:a9:14:9f:
+                    79:0f:92:43:4b:66:2e:e5:67:d4:05:50:b7:54:4a:
+                    61:91:a8:fa:8e:f4:1b:fc:80:5c:13:70:09:0d:e6:
+                    52:2b:0b:7b:a2:e7:f7:6e:84:de:c7:99:33:a8:1b:
+                    f0:77:ac:17:fc:3e:da:c0:9c:43:65:1a:a8:b6:37:
+                    84:a5:48:0d:8b:e5:7a:73:5a:34:cc:6d:6b:0f:bc:
+                    03:fd:ee:75:3f:a9:21:7d:49:ca:b9:48:96:dd:12:
+                    0e:0e:58:6b:6a:29:c1:84:c5:24:ce:b8:29:bb:b2:
+                    0c:a9:0a:db:5d:c0:e5:2c:f4:d1:18:75:dc:f5:51:
+                    29:69:69:7d:5b:60:a2:1f:41:36:ea:73:24:e1:bf:
+                    18:4f:f1:d1:79:97:09:80:0e:20:6a:e6:f2:eb:a3:
+                    02:d5:16:27:99:e4:6d:a7:33:7f:69:5d:9c:84:c9:
+                    07:0f:b7:89:0a:ed:13:52:c4:33:c6:94:25:e2:91:
+                    09:59
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                73:6B:5E:DB:CF:C9:19:1D:5B:D0:1F:8C:E3:AB:56:38:18:9F:02:4F
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        54:f5:2f:a8:f5:84:45:05:3c:dc:09:e6:78:a6:18:a9:9b:02:
+        7d:3e:c2:05:2a:88:9d:82:44:de:91:bb:77:13:3c:8b:f9:0f:
+        a7:c9:24:3f:1a:7e:19:5d:d9:62:15:8c:4a:35:c4:66:c5:b4:
+        96:09:af:63:5f:aa:89:6f:ab:7b:81:c2:c1:3f:c1:e9:ee:45:
+        8b:b0:d7:5b:93:5f:7e:89:20:e9:85:57:ce:e9:47:4b:e9:95:
+        48:6c:8c:b4:bc:d3:b4:fc:b8:04:29:58:bb:b7:31:3c:e1:e9:
+        5c:69:2e:39:65:23:d8:f8:79:f2:48:5d:ac:3f:74:85:d2:7f:
+        62:17:f6:d6:77:36:0e:8c:b7:0f:a6:06:af:b1:3e:ba:28:ba:
+        e2:95:e5:e4:62:30:96:14:e5:ee:7e:76:60:a5:fd:75:a4:67:
+        77:c1:32:44:21:e9:d2:69:b7:3d:d0:b4:38:ac:0b:c1:24:f8:
+        9c:63:f0:1f:84:8b:61:fe:0e:06:88:31:be:33:50:e6:ce:55:
+        7e:d4:5d:27:36:bd:ca:b8:d1:a3:7a:08:4b:55:e8:0a:a1:1a:
+        bf:6f:93:c5:fb:49:29:48:ae:c7:53:02:1d:ae:06:6c:ab:3d:
+        4e:46:c3:13:a0:4c:af:f0:bb:f1:23:22:f4:0d:30:8b:04:94:
+        87:9a:02:72
