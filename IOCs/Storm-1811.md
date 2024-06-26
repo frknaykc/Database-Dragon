@@ -1,0 +1,25 @@
+Domain names:
+
+upd7a[.]com
+upd7[.]com
+upd9[.]com
+upd5[.]pro
+antispam3[.]com
+antispam2[.]com
+SHA-256:
+
+71d50b74f81d27feefbc2bc0f631b0ed7fcdf88b1abbd6d104e66638993786f8
+0f9156f91c387e7781603ed716dcdc3f5342ece96e155115708b1662b0f9b4d0
+1ad05a4a849d7ed09e2efb38f5424523651baf3326b5f95e05f6726f564ccc30
+93058bd5fe5f046e298e1d3655274ae4c08f07a8b6876e61629ae4a0b510a2f7
+1cb1864314262e71de1565e198193877ef83e98823a7da81eb3d59894b5a4cfb
+ScreenConnect relay:
+
+instance-olqdnn-relay.screenconnect[.]com
+NetSupport C2:
+
+greekpool[.]com
+Cobalt Strike Beacon C2:
+
+zziveastnews[.]com
+realsepnews[.]com
