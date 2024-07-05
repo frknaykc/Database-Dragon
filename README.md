@@ -1,6 +1,6 @@
 # Threat Intelligence
 
-This repository is dedicated to the collection and sharing of information related to malware analysis and threat intelligence. It includes Cobalt Strike Beacon configurations, YARA rules, Indicators of Compromise (IOCs), Suricata rule sets, CobaltStrike research, malware samples, and other relevant information. The goal is to educate and support the cybersecurity community in understanding and defending against various cyber threats.
+This repository is dedicated to the collection and sharing of information related to malware analysis and threat intelligence. It includes Cobalt Strike Beacon configurations, YARA rules, Indicators of Compromise (IOCs), Suricata rule sets, CobaltStrike research, malware samples, and other relevant information. The goal is to support the cybersecurity community in understanding and defending against various cyber threats.
 
 ### Purpose
 
