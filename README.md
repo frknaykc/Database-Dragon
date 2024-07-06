@@ -1,4 +1,4 @@
-# Threat Intelligence
+# Threat Collections
 
 This repository is dedicated to the collection and sharing of information related to malware analysis and threat intelligence. It includes Cobalt Strike Beacon configurations, YARA rules, Indicators of Compromise (IOCs), Suricata rule sets, CobaltStrike research, malware samples, and other relevant information. The goal is to support the cybersecurity community in understanding and defending against various cyber threats.
 
@@ -17,10 +17,6 @@ This repository is dedicated to the collection and sharing of information relate
 - **[Malware-Database](Malware-Database)**: Malware samples for research and analysis purposes.
 - **[Suricata-RuleSets-Database](Suricata-RuleSets-Database)**: Rule sets for Suricata.
 - **[Yara-RuleSets-Database](Yara-RuleSets-Database)**: YARA rules for identifying various malware families and related threats.
-
-### Contributing
-
-We welcome contributions from the community. If you have additional resources, improvements, or corrections, please submit a pull request or open an issue.
 
 ### Disclaimer
 
